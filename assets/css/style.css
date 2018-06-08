@@ -1,0 +1,47 @@
+body{
+	font-family: serif;
+	background: black;
+	color: white;
+}
+
+
+/* Styles were reset in reset.css, so I am redefining the styles of headers*/
+	h1{
+		font-size: 30px
+	}
+
+	h2{
+		font-size: 27px;
+	}
+	h3{
+		font-size: 25px;
+	}
+
+
+img{
+	height: 200px;
+	width: 200px;
+
+}
+
+ul{
+	text-align: left;
+
+}
+
+#headerDiv{
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: center;
+}
+#number-to-guess{
+	margin-left: 47%;
+}
+
+.rowOne{
+	margin-left: 34%;
+}
+.rowTwo{
+	margin-left: 34%;
+}

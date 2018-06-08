@@ -1,33 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>title</title>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	<title>Crystal Game</title>
+
+<!--stylesheets-->
+<link rel="stylesheet" href="assets/css/reset.css"> </link>
+<link rel="stylesheet" href="assets/css/style.css"></link>
+<link rel="icon" href="assets/images/fav.ico"> </link>
+
+
+<!--jQuery-->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!--Javascript is below jquery-->
+
+  <script src="assets/javascript/game.js"></script>
+
  
 </head>
 <body>
 
-	<div class="diamondone"> 
 
+	<div id="headerDiv">
+		<h1> Welcome to the Crystal Game!</h1>
+		<br>
+		<h3> Here are the Rules: </h3>
+		<br>
+		<hr>
+		<ul id="ruleList"> 
+			<li> - Every crystal has a random value</li>
+			<li> - You will be given a new number to match at the beginning of every game</li>
+			<li> - Click on the Crystals to hit the value, without going above, or you lose.</li>
+			<li> - Wins and losses will be tracked below.</li>
+		</ul>
+
+		<br>
+
+		<h2>Wins:<span id="wins">  </span> </h2>
+		<h2>Losses: <span id="losses">  </span> </h2>
+
+	 </div>
+
+
+
+ <div class="mainGame">
+<br>
+ 	<h2 id="number-to-guess">  </h2>
+ <br>
+
+	<div class="rowOne"> 
+		<img src="assets/images/crystalwhite.jpg" class="crystal">
+		<img src="assets/images/crystalpink.jpg" class="crystal">
 	</div>
 
-	<div class="diamondtwo"> 
-		
-	</div>
+	
 
-	<div class="diamondthree"> 
-		
-	</div>
-
-	<div class="diamondfour"> 
-		
+	<div class="rowTwo"> 
+		<img src="assets/images/crystalpurple.jpg" class="crystal">
+		<img src="assets/images/crystalblue.jpg" class="crystal">
 	</div>
 
 
 
 
+</div>
 
 
 
@@ -36,13 +73,7 @@
 
 
 
-	<script> 
-		
 
-
-
-
-	</script>
 
 </body>
 </html>
